@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import ImageHero from "../../public/Images/hero/Pekalongan.png"
 
 const Hero = () => {
   // PATH GAMBAR DIPERBAIKI: Path tidak perlu menyertakan '/public' dan harus sesuai dengan nama folder 'Images' (huruf besar)
@@ -11,8 +12,9 @@ const Hero = () => {
     { id: 4, src: "/Images/hero/gambar4.png" },
   ];
 
+
   return (
-    <section className="relative bg-amber-50">
+    <section  className="relative bg-amber-50">
       {/* Background pattern - DIPERBAIKI */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-[url('/Images/food-pattern.svg')] opacity-10"></div>
@@ -64,11 +66,9 @@ const Hero = () => {
 
           {/* Image Content */}
           <div className="lg:w-1/2 relative">
-          <h1>helo</h1>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl h-96 w-full lg:h-[450px]">
               <Image 
-                // PATH GAMBAR DIPERBAIKI
-                src="/public/Images/hero/hero.jpg" 
+                src={ImageHero} 
                 alt="Makanan Khas Pekalongan" 
                 fill 
                 className="object-cover" 

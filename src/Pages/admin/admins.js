@@ -51,7 +51,7 @@ export default function AdminDashboard() {
   };
 
   return (
-    <div className="flex h-screen bg-gray-100">
+    <div id='admin' className="flex h-screen bg-gray-100">
       {/* Mobile Sidebar Overlay */}
       {sidebarOpen && (
         <div
@@ -158,7 +158,7 @@ export default function AdminDashboard() {
               <div className="relative">
                 <button className="p-2 rounded-full hover:bg-gray-100">
                   <div className="w-8 h-8 bg-amber-600 rounded-full flex items-center justify-center text-white font-bold">
-                    P
+                    Pn
                   </div>
                 </button>
               </div>

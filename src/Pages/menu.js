@@ -4,7 +4,7 @@ import { menuCategories } from "@/data/menuData";
 
 export default function Menu() {
   return (
-    <main className="bg-amber-50 min-h-screen">
+    <main id="menu" className="bg-amber-50 pt-5 min-h-screen">
       {/* Hero Section Menu */}
       <section className="relative bg-amber-600 text-white py-20">
         <div className="container mx-auto px-4 text-center">

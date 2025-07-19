@@ -1,7 +1,7 @@
 import Footer from "@/Components/ui/Footer";
 import Navbar from "@/Components/ui/Navbar";
-import AdminDashboard from "@/Pages/admin/admins";
 import Hero from "@/Pages/beranda";
+import CeritaKami from "@/Pages/CeritaKami";
 import Lokasi from "@/Pages/lokasi";
 import Menu from "@/Pages/menu"
 export default function Home() {
@@ -9,10 +9,13 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <CeritaKami/>
       <Menu/>
       <Lokasi />
-      <AdminDashboard/>
       <Footer/>
     </>
   );
 }
+
+
+// 

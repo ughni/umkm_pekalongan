@@ -20,11 +20,10 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "Menu", href: "/menu" },
+    { name: "Menu", href: "#menu" },
     { name: "Cerita Kami", href: "/tentang" },
-    { name: "Lokasi", href: "/lokasi" },
-    { name: "Kontak", href: "/kontak" },
-    { name: "Admin", href: "/Admin" },
+    { name: "Lokasi", href: "#lokasi" },
+    { name: "Admin", href: "#admin" },
   ];
 
   const mobileMenuVariants = {

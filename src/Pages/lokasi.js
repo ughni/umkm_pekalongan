@@ -16,7 +16,7 @@ export default function LokasiKontak() {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-amber-50 to-amber-100 py-12 px-4 sm:px-6 lg:px-8">
+    <main id="lokasi" className="min-h-screen bg-gradient-to-br pt-5 from-amber-50 to-amber-100 py-12 px-4 sm:px-6 lg:px-8">
       {/* Header Section */}
       <motion.div 
         initial={{ opacity: 0, y: -20 }}
